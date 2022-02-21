@@ -20,12 +20,6 @@ form.addEventListener('submit', (e: Event) => {
         details: details.value,
         amount: amount.valueAsNumber
     }
-    if(type.value === 'invoice'){
-        console.log('Invoice', values)
-
-    } else {
-        console.log('Payment', values)
-    }
 
     let li = document.createElement('li');
     
